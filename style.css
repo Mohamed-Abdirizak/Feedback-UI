@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+body{
+    background-color: rgb(198, 235, 198);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Autour One', sans-serif;
+    /* width: 300px; */
+    color:rgb(14, 116, 129);
+
+    
+
+    
+}
+/* p{
+    color:orange;
+} */
+*{
+    text-decoration: none;
+}
+a{
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.container{
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(230, 241, 230);
+    padding: 5rem;
+    border-radius: 2rem;
+    text-align: center;
+    width: 40%;
+
+
+    .btn{
+        background-color: rgb(64, 116, 116);
+        color:white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+
+       
+        
+    }
+}
+.main{
+    /* height: 100vh; */
+    display: flex;
+    padding-right: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    align-items: center;
+    padding-right: 2rem;
+    justify-content: space-around;
+    /* padding-right: 2rem; */
+  
+
+    .one:hover,
+    .one.ac
+    {
+        cursor: pointer;
+        background-color: rgb(146, 177, 159);
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+    }
+ 
+    .b1{
+        background-color: transparent;
+        border: none;
+
+    
+       
+    }
+    .b2{
+        background-color: transparent;
+        border: none;
+        /* margin-left: 2rem; */
+       
+    }
+    .b3{
+        background-color: transparent;
+        border: none;
+        /* margin-left: 2rem; */
+       
+    }
+}
+
+.me{
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 850px)
+{
+    .main{
+        flex-direction: column;
+    
+
+
+    }
+    .topic{
+        font-size: 1.5rem;
+    }
+}
